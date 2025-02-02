@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="script.js">
+</head>
+<body>
+    
+    <div class="profile-card">
+        <img src="my.jpg" alt="profile picture" class="profile-picture" data-testid="profilePicture">
+        <h1>Name</h1>
+        <h3 data-testid="fullName">Miracle Oluchi Okechukwu</h3>
+        <p data-testid="jobTitle">Front-End Developer</p>
+        <h2>About Me</h2>
+        <p data-testid="shortBio">I am a passionate front-end developer with a focus on building user-friendly and engaging web experiences. <br>I'm passionate about creating seamless UI/UX experiences.</p>
+        <h1>current Location</h1>
+        <p data-testid="currentLocation">Uyo, Nigeria</p>
+        <h1>Email Address</h1>
+        <p data-testid="emailAddress"><a href="mailto:miracleokechukwu20@outlook.com">miracleokechukwu20@outlook.com</a></p>
+
+        <div data-testid="socialLinks">
+            <h1>Social Links</h1>
+            <a href="linkedin">LinkedIn</a><br>
+            <a href="https://github.com/Miraculous20" target="_blank">GitHub</a><br>
+            <a href="https://twitter.com/@miraculousoke" target="_blank">Twitter</a>
+        </div>
+        <h1>Current Time</h1>
+        <p data-testid="currentTimeUTC">Current UTC Time: <span id="utcTime"></span></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
